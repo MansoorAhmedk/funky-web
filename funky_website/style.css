@@ -1,0 +1,61 @@
+
+body{
+    background-image: url(funky_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    font-family: 'Happy Monkey', serif;
+    height: 100vh;
+    width: 100vw;
+    color: #fff;
+    text-shadow: 0px 0px 2px #8f4ee9;
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #f5f4f4;
+    margin-bottom: 50px;
+    text-shadow: 1px 1px 10px rgb(58, 17, 95);
+  }
+  ::placeholder{
+    color: white;
+    text-shadow: 0px 0px 5px #8f4ee9;
+  }
+  
+  input[type="text"] {
+    font-size: 24px;
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 50px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border: 6px solid rgb(58, 17, 95);
+    color: #8f4ee9;
+  }
+  
+  button {
+    font-size: 24px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #response {
+    font-size: 24px;
+    margin-top: 50px;
+    color: #221435;
+    text-align: center;
+    text-shadow: 0px 0px 6px rgb(158, 158, 158);
+  }
